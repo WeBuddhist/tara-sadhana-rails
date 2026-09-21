@@ -1,62 +1,55 @@
-# Vault Annex — [text-slug] conventions
+# Vault Annex — Zabtig Drolchok conventions
 
-The methodology guidelines (`0-VAULT-Structure.md`, `../../1-SOURCES/About Sources.md`, `../../2-RAILS/About Rails.md`, `../../3-TRANSFORMATIONS/About Transformations.md`) are **text-agnostic** — they apply to any Railroads vault built on any classical text. This annex records the conventions that are specific to *this* vault: **[name of text]**.
+The methodology guidelines (`0-VAULT-Structure.md`, `../../1-SOURCES/About Sources.md`, `../../2-RAILS/About Rails.md`, `../../3-TRANSFORMATIONS/About Transformations.md`) are **text-agnostic** — they apply to any Railroads vault built on any classical text. This annex records the conventions that are specific to *this* vault: **ཟབ་ཏིག་སྒྲོལ་ཆོག (Zabtig Drolchok)**.
 
 When the Guidelines and this annex disagree on a vault-specific detail, this annex wins.
-
-> **Template instructions:** Fill in each section below, replacing all `[placeholder]` text. Delete this instruction block when done.
 
 ---
 
 ## 1. The text
 
-This vault serves **[name of text]** — [one-sentence description of the text and its tradition].
+This vault serves **ཟབ་ཏིག་སྒྲོལ་ཆོག (Zabtig Drolchok)** — full title **དགོངས་གཏེར་སྒྲོལ་མའི་ཟབ་ཏིག་ལས། མཎྜལ་ཆོ་ག་ཚོགས་གཉིས་སྙིང་པོ** ("The Essence of the Two Accumulations Mandala Ritual, from the Profound Essence of Tārā's Mind-Treasure"), a Tārā sadhana/liturgy from the Gongter (mind-treasure) revelation tradition — combining supplications, a mandala offering ritual, praises to Tārā, and dedication practices.
 
 Source-text files in `1-SOURCES/Text/` correspond to the following books / volumes:
 
 | Order | Book / Volume | Filename |
 | ----- | ------------- | -------- |
-| 1 | [Title] | `[lang]-[slug].md` |
-| 2 | [Title] | `[lang]-[slug].md` |
+| 1 | ཟབ་ཏིག་སྒྲོལ་ཆོག (full liturgy, 10 sections) | `bo-ཟབ་ཏིག་སྒྲོལ་ཆོག.md` |
 
-Only books that have been ingested are present in the folder. The primary text currently being railed out is **[book / chapter]**.
+Only books that have been ingested are present in the folder. The primary text currently being railed out is the full liturgy.
+
+A translation scope note — recording which blocks fall inside the current
+translation job's verse-only scope, matched against a user-supplied excerpt —
+is kept at `0-INBOX/temp/translation-scope.md`.
 
 ---
 
 ## 2. Addressing scheme
 
-[Describe how block IDs are structured for this text. Use one of the standard schemes from `1-SOURCES/About Sources.md` §5, or document a custom scheme here if the text's structure requires it.]
+Standard `chapter-verse` scheme (see `CONVENTIONS.md` §1a in the shared skill library). Each of the 10 major sections of the liturgy is one "chapter"; verses/prose blocks within a section are numbered from 1, restarting at each section boundary.
 
-**`verse_id_format`:** `[chapter-verse | verse | book-chapter-verse | book-verse | custom]`
+**`verse_id_format`:** `chapter-verse`
 
-**Format example:** `^[example]`
+**Format example:** `^1-1`, `^4-34`, `^10-3`
 
 ### Heading hierarchy
 
 | Markdown | Role | Anchor |
 | -------- | ---- | ------ |
-| `#` | [e.g. Piṭaka / collection] | `^[slug]-0` |
-| `##` | [e.g. Book / volume] | `^[book]-0` |
-| `###` | [e.g. Chapter / major section] | `^[book]-[ch]-0` |
-| `####` | [Sub-section] | `^[book]-[ch]-[s]-0` |
+| `#` | Whole-text title | `^0` |
+| `##` | Section (1 of 10 major liturgy components) | `^N-0` |
+
+No `###` / `####` levels are used — this text has a flat, single level of sections.
 
 ### Verse numbering rule
 
-[Describe whether verse numbers restart at each chapter boundary, or run continuously through a book, and any exceptions.]
+Verse/block numbers restart at 1 at the start of each of the 10 sections. Content before the first numbered verse of a section (rare) uses `^N-0`-style headings only, not a separate zero-block.
 
 ---
 
 ## 3. Registered commentary IDs
 
-Every commentary file in `1-SOURCES/Commentaries/` declares a `registered_id` in its frontmatter. That short ID is the only string used to attribute claims to the commentary throughout `2-RAILS/`.
-
-Once assigned, a `registered_id` never changes. New commentaries must be added to the roster below before their `registered_id` is used in any rail.
-
-| `registered_id` | Title | Tier | Language | File |
-| --------------- | ----- | ---- | -------- | ---- |
-| `[short-id]` | [Commentary title] | [commentary \| sub-commentary \| …] | [Language] | `1-SOURCES/Commentaries/[lang]-[slug].md` |
-
-**Tier ordering** within a verse package's Traditional Interpretation section: [describe the preferred order, e.g. primary commentary first, then sub-commentaries].
+No commentaries have been ingested for this vault yet. When one is added, register it here with a `registered_id`, title, tier, language, and file path before it is cited in any rail.
 
 ---
 
@@ -64,47 +57,6 @@ Once assigned, a `registered_id` never changes. New commentaries must be added t
 
 | Tag | Language | Translation track | Plan stream |
 | --- | -------- | ----------------- | ----------- |
-| `[src-tag]` | [Source language] | — (source) | `days/[tag]/` (if applicable) |
-| `[tgt-tag]` | [Target language 1] | `[lang]-[descriptor]/` | — |
-| `[tgt-tag]` | [Target language 2] | `[lang]-[descriptor]/` | — |
-
-Each translation track's `requirements.md` is written in its own target language. New tracks are added by creating `Translations/[lang]-[descriptor]/` and running the `glossary-select` skill from the consolidated `2-RAILS/Bilingual-Glossaries/[src]-[tgt].md`.
-
----
-
-## 5. Bilingual glossary pairs
-
-The consolidated bilingual glossaries in `2-RAILS/Bilingual-Glossaries/` cover the following source→target combinations:
-
-| File | Source language | Target language | Status |
-| ---- | --------------- | --------------- | ------ |
-| `[src]-[tgt].md` | [Source] | [Target] | `draft` |
-
----
-
-## 6. Active transformation tracks
-
-| Track | Category | Status |
-| ----- | -------- | ------ |
-| `[lang]-[descriptor]` | Translation | `draft` |
-| `[plan-id]` | Plan | `draft` |
-
----
-
-## 7. Source-language tags used in this vault
-
-| Tag | Script / System | Use in this vault |
-| --- | --------------- | ----------------- |
-| `-[tag]` | [Script] | [When used] |
-
-The default for every [language] source is `-[default-tag]`.
-
----
-
-## 8. Where to look next
-
-- [`0-VAULT-Structure.md`](0-VAULT-Structure.md) — the architecture in full.
-- [`../../1-SOURCES/About Sources.md`](../../1-SOURCES/About%20Sources.md) — source-file rules.
-- [`../../2-RAILS/About Rails.md`](../../2-RAILS/About%20Rails.md) — rails schema.
-- [`../../3-TRANSFORMATIONS/About Transformations.md`](../../3-TRANSFORMATIONS/About%20Transformations.md) — track and output rules.
-- [Top-level `README.md`](../../README.md) — pipeline overview and reading paths.
+| `bo` | Tibetan | — (source) | — |
+| `en` | English | `3-TRANSFORMATIONS/Translations/Dharmamitra/en/` (machine-baseline zero-shot, scaffolding for keyword extraction) | — |
+| `zh` | Chinese | `3-TRANSFORMATIONS/Translations/Dharmamitra/zh/` (final, standardized-vocabulary translation) | — |
