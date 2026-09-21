@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-RAILS/Bilingual-Glossaries/Raw/bo-en-gloss.md",
+                "file": "0-INBOX/temp/keyword-work/en-clean-scoped-tfidf.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bo-en-gloss"
+              "title": "en-clean-scoped-tfidf"
             }
           }
         ]
@@ -199,10 +199,11 @@
   },
   "active": "5192e0210975a28f",
   "lastOpenFiles": [
-    "0-INBOX/temp/keyword-work/en-clean-scoped-tfidf.md",
     "0-INBOX/temp/keyword-work/en-clean-scoped.md",
-    "0-INBOX/temp/keyword-work/en-bo-term-list-tfidf-top60.md",
+    "0-INBOX/temp/translation-scope.md",
     "2-RAILS/Bilingual-Glossaries/Raw/bo-en-gloss.md",
+    "0-INBOX/temp/keyword-work/en-clean-scoped-tfidf.md",
+    "0-INBOX/temp/keyword-work/en-bo-term-list-tfidf-top60.md",
     "0-INBOX/temp/gloss-work/answers.json",
     "0-INBOX/temp/gloss-work/__pycache__/build_answers.cpython-310.pyc",
     "0-INBOX/temp/gloss-work/__pycache__",
