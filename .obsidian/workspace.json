@@ -197,8 +197,11 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "5192e0210975a28f",
+  "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
+    "0-INBOX/temp/bo-en-pairs.csv",
+    "0-INBOX/temp/gloss-work/bo-en-gloss.md.bak",
+    "0-INBOX/temp/gloss-work/apply_gloss_answers.py",
     "0-INBOX/temp/keyword-work/en-clean-scoped.md",
     "0-INBOX/temp/translation-scope.md",
     "2-RAILS/Bilingual-Glossaries/Raw/bo-en-gloss.md",
@@ -214,9 +217,7 @@
     "0-INBOX/temp/keyword-work/top60-verse-context.json",
     "0-INBOX/temp/keyword-work/en-clean-scoped_verse_keywords.json",
     "0-INBOX/temp/keyword-work/en-clean-scoped_keyword_verses.json",
-    "0-INBOX/temp/keyword-work/en-clean-scoped_termbase.json",
     "4-SYSTEM/Skills/english-keyword-extraction/scripts/output/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-en-tfidf.md",
-    "4-SYSTEM/Skills/english-keyword-extraction/scripts/output/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-en_verse_keywords.json",
     "4-SYSTEM/Skills/english-keyword-extraction/scripts/output/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-en-preview.md",
     "4-SYSTEM/Skills/english-keyword-extraction/scripts/output/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-en-keywords.md",
     "3-TRANSFORMATIONS/Translations/Dharmamitra/en/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-en.md",
@@ -233,7 +234,6 @@
     "4-SYSTEM/Skills/translation-frontmatter/SKILL.md",
     "4-SYSTEM/Skills/source-property-extractor/SKILL.md",
     "4-SYSTEM/Skills/structural-outline-ingest/SKILL.md",
-    "4-SYSTEM/Skills/section-summary-combined/SKILL.md",
-    "4-SYSTEM/Skills/section-summary-raw/SKILL.md"
+    "4-SYSTEM/Skills/section-summary-combined/SKILL.md"
   ]
 }
