@@ -11,10 +11,14 @@
             "id": "5192e0210975a28f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2-RAILS/Bilingual-Glossaries/Raw/bo-en-gloss.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "bo-en-gloss"
             }
           }
         ]
@@ -195,21 +199,21 @@
   },
   "active": "5192e0210975a28f",
   "lastOpenFiles": [
+    "0-INBOX/temp/keyword-work/en-clean-scoped-tfidf.md",
+    "0-INBOX/temp/keyword-work/en-clean-scoped.md",
+    "0-INBOX/temp/keyword-work/en-bo-term-list-tfidf-top60.md",
     "2-RAILS/Bilingual-Glossaries/Raw/bo-en-gloss.md",
     "0-INBOX/temp/gloss-work/answers.json",
     "0-INBOX/temp/gloss-work/__pycache__/build_answers.cpython-310.pyc",
     "0-INBOX/temp/gloss-work/__pycache__",
-    "0-INBOX/temp/keyword-work/en-bo-term-list-tfidf-top60.md",
     "0-INBOX/temp/gloss-work/build_answers.py",
     "0-INBOX/temp/gloss-work",
     "1-SOURCES/Translations/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-en.md",
     "0-INBOX/temp/keyword-work/en-bo-term-list.md",
     "0-INBOX/temp/keyword-work/top60-verse-context.json",
-    "0-INBOX/temp/keyword-work/en-clean-scoped-tfidf.md",
     "0-INBOX/temp/keyword-work/en-clean-scoped_verse_keywords.json",
     "0-INBOX/temp/keyword-work/en-clean-scoped_keyword_verses.json",
     "0-INBOX/temp/keyword-work/en-clean-scoped_termbase.json",
-    "0-INBOX/temp/keyword-work/en-clean-scoped.md",
     "4-SYSTEM/Skills/english-keyword-extraction/scripts/output/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-en-tfidf.md",
     "4-SYSTEM/Skills/english-keyword-extraction/scripts/output/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-en_verse_keywords.json",
     "4-SYSTEM/Skills/english-keyword-extraction/scripts/output/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-en-preview.md",
