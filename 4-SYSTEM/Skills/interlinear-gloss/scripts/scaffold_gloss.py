@@ -218,7 +218,7 @@ def scaffold(source_path, target_path, output_path):
         if not source_text:
             skipped_source_missing += 1
             continue
-        if not target_text.strip() or target_text.strip() == "-":
+        if not target_text.strip() or target_text.strip() in ("-", "*[not yet translated]*"):
             skipped_target_missing += 1
             continue
         gla_tokens = tokenise_source(source_text)
@@ -296,4 +296,10 @@ def main(argv):
     print(
         f"Wrote {args.output}: blocks={stats['blocks_rendered']} "
         f"skipped_target_missing={stats['skipped_target_missing']} "
-        f"skipped_source
+        f"skipped_source_missing={stats['skipped_source_missing']}"
+    )
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv))
