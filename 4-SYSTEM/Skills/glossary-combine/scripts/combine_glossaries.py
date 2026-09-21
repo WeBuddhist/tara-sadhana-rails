@@ -99,7 +99,7 @@ def combine(language_pair, raw_dir):
         lp_match = LANG_PAIR_RE.search(fm)
         if not lp_match or lp_match.group(1).strip() != language_pair:
             continue
-        raw_files.append(f"2-RAILS/Glossaries/Raw/{path.name}")
+        raw_files.append(f"2-RAILS/Bilingual-Glossaries/Raw/{path.name}")
         source_label, keywords = parse_raw_glossary(path)
         for keyword, renderings in keywords.items():
             for rendering, freq in renderings:
