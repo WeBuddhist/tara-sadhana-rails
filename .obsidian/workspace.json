@@ -199,6 +199,10 @@
   },
   "active": "5192e0210975a28f",
   "lastOpenFiles": [
+    "0-INBOX/temp/gloss-work/build_answers_zh.py",
+    "0-INBOX/temp/gloss-work/zh_source_data.json",
+    "2-RAILS/Bilingual-Glossaries/Raw/bo-zh-gloss.md",
+    "1-SOURCES/Translations/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-zh.md",
     "3-TRANSFORMATIONS/Translations/Dharmamitra/zh/work/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-zh.jsonl",
     "3-TRANSFORMATIONS/Translations/Dharmamitra/zh/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-zh.md",
     "3-TRANSFORMATIONS/Translations/Dharmamitra/zh/work",
@@ -219,8 +223,6 @@
     "0-INBOX/temp/keyword-work/en-bo-term-list-tfidf-top60.md",
     "0-INBOX/temp/gloss-work/answers.json",
     "0-INBOX/temp/gloss-work/__pycache__/build_answers.cpython-310.pyc",
-    "0-INBOX/temp/gloss-work/__pycache__",
-    "0-INBOX/temp/gloss-work/build_answers.py",
     "1-SOURCES/Translations/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-en.md",
     "0-INBOX/temp/keyword-work/en-bo-term-list.md",
     "4-SYSTEM/Skills/english-keyword-extraction/scripts/output/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-en-tfidf.md",
@@ -232,8 +234,6 @@
     "3-TRANSFORMATIONS/Translations/Dharmamitra/en/about.md",
     "3-TRANSFORMATIONS/Translations/About Translations.md",
     "README.md",
-    "gemini-scribe/Prompts/example-expert.md",
-    "CLAUDE.md",
-    "4-SYSTEM/Skills/epub-to-markdown/converters/README.md"
+    "gemini-scribe/Prompts/example-expert.md"
   ]
 }
