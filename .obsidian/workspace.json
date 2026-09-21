@@ -199,6 +199,7 @@
   },
   "active": "2bb62731e28978fb",
   "lastOpenFiles": [
+    "1-SOURCES/Translations/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-en.md",
     "0-INBOX/temp/keyword-work/en-bo-term-list.md",
     "0-INBOX/temp/keyword-work/en-bo-term-list-tfidf-top60.md",
     "0-INBOX/temp/keyword-work/top60-verse-context.json",
@@ -233,7 +234,6 @@
     "4-SYSTEM/Skills/section-summary-combined/SKILL.md",
     "4-SYSTEM/Skills/section-summary-raw/SKILL.md",
     "4-SYSTEM/Skills/root-text-frontmatter/SKILL.md",
-    "4-SYSTEM/Skills/reference-frontmatter/SKILL.md",
-    "4-SYSTEM/Skills/property-creator/SKILL.md"
+    "4-SYSTEM/Skills/reference-frontmatter/SKILL.md"
   ]
 }

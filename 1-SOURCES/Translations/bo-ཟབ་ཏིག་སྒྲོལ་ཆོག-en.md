@@ -30,6 +30,9 @@ blocks_translated: 122
 blocks_total: 264
 headings_translated: 0
 note: Machine baseline — not a rails-governed translation. Every line below is raw DharmaMitra `cat-translate` output, produced in small batches of adjacent blocks with no termbase, no verse-context rails, and no human review. It is a comparison baseline and a drafting aid only. See `about.md` in this folder.
+verse_id_format: chapter-verse
+covers_verses: 122 of 264 blocks, non-contiguous — see 0-INBOX/temp/scope-ids.txt
+source_description: DharmaMitra cat-translate v1 API output — zero-shot machine translation, no termbase, no human review (machine-baseline, not rails-governed; see note field above)
 status: draft
 ---
 
