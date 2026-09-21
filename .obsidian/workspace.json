@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "3-TRANSFORMATIONS/Translations/Dharmamitra/en/style.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "style"
             }
           }
         ]
@@ -182,7 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 317.80859375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,8 +197,18 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "d066ca5c15f520a5",
+  "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/Translations/Dharmamitra/en/work/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-en.jsonl",
+    "3-TRANSFORMATIONS/Translations/Dharmamitra/en/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-en.md",
+    "3-TRANSFORMATIONS/Translations/Dharmamitra/en/context-header.md",
+    "3-TRANSFORMATIONS/Translations/Dharmamitra/en/about.md",
+    "3-TRANSFORMATIONS/Translations/About Translations.md",
+    "README.md",
+    "3-TRANSFORMATIONS/Translations/Dharmamitra/en/work",
+    "3-TRANSFORMATIONS/Translations/Dharmamitra/en/style.md",
+    "3-TRANSFORMATIONS/Translations/Dharmamitra/en",
+    "3-TRANSFORMATIONS/Translations/Dharmamitra",
     "gemini-scribe/Scheduled-Tasks/Runs",
     "gemini-scribe/Skills",
     "gemini-scribe/Background-Tasks",
@@ -207,11 +217,7 @@
     "gemini-scribe/Prompts/example-expert.md",
     "gemini-scribe/Scheduled-Tasks",
     "gemini-scribe/Prompts",
-    "gemini-scribe",
     "CLAUDE.md",
-    "4-SYSTEM/Skills/json-to-commentary/scripts/converters/__pycache__/tipitaka_org_atthakatha.cpython-310.pyc",
-    "4-SYSTEM/Skills/json-to-commentary/scripts/converters/tipitaka_org_atthakatha.py",
-    "4-SYSTEM/Skills/json-to-commentary/scripts/converters/__pycache__",
     "4-SYSTEM/Skills/epub-to-markdown/converters/README.md",
     "4-SYSTEM/Skills/verse-context/SKILL.md",
     "4-SYSTEM/Skills/vault-audit/SKILL.md",
@@ -228,12 +234,6 @@
     "4-SYSTEM/Skills/json-to-commentary/SKILL.md",
     "4-SYSTEM/Skills/glossary-select/SKILL.md",
     "4-SYSTEM/Skills/interlinear-gloss/SKILL.md",
-    "4-SYSTEM/Skills/glossary-combine/SKILL.md",
-    "4-SYSTEM/Skills/glossary-extract-raw/SKILL.md",
-    "4-SYSTEM/Skills/format-commentary/SKILL.md",
-    "4-SYSTEM/Skills/format-root-text/SKILL.md",
-    "4-SYSTEM/Skills/epub-to-markdown/SKILL.md",
-    "4-SYSTEM/Skills/create-skill/SKILL.md",
-    "4-SYSTEM/Skills/commentary-frontmatter/SKILL.md"
+    "4-SYSTEM/Skills/glossary-combine/SKILL.md"
   ]
 }
