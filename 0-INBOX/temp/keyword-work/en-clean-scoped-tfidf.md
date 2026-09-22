@@ -31,12 +31,12 @@ Frontmatter, verse markers (`^1-2`), numbers and markdown syntax are stripped be
 (10,788 documents, ~1.3 M tokens) using sklearn's smooth IDF formula:
 `idf(t) = log((1 + N) / (1 + df(t))) + 1`. Corpus maximum ≈ 9.59. Scale:
 
-| IDF range | Meaning |
-|-----------|---------|
-| 1.0 – 1.5 | Function word — present in virtually every document |
-| 1.5 – 3.0 | Common content word — high general-English frequency |
-| 3.0 – 6.0 | Moderately rare — limited domain or register |
-| 6.0 – 9.0 | Uncommon / archaic — rare in Reuters |
+| IDF range  | Meaning                                                 |
+| ---------- | ------------------------------------------------------- |
+| 1.0 – 1.5  | Function word — present in virtually every document     |
+| 1.5 – 3.0  | Common content word — high general-English frequency    |
+| 3.0 – 6.0  | Moderately rare — limited domain or register            |
+| 6.0 – 9.0  | Uncommon / archaic — rare in Reuters                    |
 | 9.59 (max) | Absent from Reuters — domain-exclusive, coined, or Pāli |
 
 **TF-IDF score** = TF × IDF × 10⁶ (scaled for readability).

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-RAILS/Bilingual-Glossaries/Raw/bo-en-gloss.md",
+                "file": "0-INBOX/temp/keyword-work/en-clean-scoped-tfidf.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bo-en-gloss"
+              "title": "en-clean-scoped-tfidf"
             }
           }
         ]
@@ -199,25 +199,27 @@
   },
   "active": "5192e0210975a28f",
   "lastOpenFiles": [
-    "2-RAILS/Bilingual-Glossaries/bo-en.md",
+    "0-INBOX/temp/keyword-work/en-clean-scoped.md",
+    "0-INBOX/temp/keyword-work/en-bo-term-list-tfidf-top60.md",
+    "0-INBOX/temp/keyword-work/en-bo-term-list.md",
+    "2-RAILS/Bilingual-Glossaries/Raw/bo-zh-gloss.md",
+    "2-RAILS/Bilingual-Glossaries/Raw/bo-en.md",
     "2-RAILS/Bilingual-Glossaries/Raw/bo-en-gloss.md",
+    "2-RAILS/Bilingual-Glossaries/Raw/bo-zh.md",
     "2-RAILS/Bilingual-Glossaries/bo-zh.md",
+    "2-RAILS/Bilingual-Glossaries/bo-en.md",
     "3-TRANSFORMATIONS/Translations/Dharmamitra/en/about.md",
     "3-TRANSFORMATIONS/Translations/Dharmamitra/zh/context-header.md",
     "3-TRANSFORMATIONS/Translations/Dharmamitra/zh/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-zh.md",
     "3-TRANSFORMATIONS/Translations/Dharmamitra/zh/bo-zh-bilingual.txt",
     "0-INBOX/temp/gloss-work/bo-zh-top-rendering.md",
     "3-TRANSFORMATIONS/Translations/Dharmamitra/zh/glossary.txt",
-    "0-INBOX/temp/keyword-work/en-bo-term-list-tfidf-top60.md",
     "0-INBOX/temp/translation-scope.md",
     "0-INBOX/temp/gloss-work/select_top_rendering.py",
-    "2-RAILS/Bilingual-Glossaries/Raw/bo-zh.md",
     "0-INBOX/temp/gloss-work/build_raw_glossary_zh.py",
     "3-TRANSFORMATIONS/Translations/Dharmamitra/en/style.md",
     "3-TRANSFORMATIONS/Translations/Dharmamitra/en/context-header.md",
     "0-INBOX/temp/bo-zh-pairs.csv",
-    "2-RAILS/Bilingual-Glossaries/Raw/bo-zh-gloss.md",
-    "2-RAILS/Bilingual-Glossaries/Raw/bo-en.md",
     "0-INBOX/temp/gloss-work/bo-zh-gloss.md.bak",
     "0-INBOX/temp/gloss-work/answers-zh.json",
     "0-INBOX/temp/gloss-work/__pycache__/build_answers_zh.cpython-310.pyc",
@@ -227,9 +229,7 @@
     "3-TRANSFORMATIONS/Translations/Dharmamitra/zh/style.md",
     "3-TRANSFORMATIONS/Translations/Dharmamitra/zh/about.md",
     "0-INBOX/temp/keyword-work/en-clean-scoped-tfidf.md",
-    "0-INBOX/temp/keyword-work/en-clean-scoped.md",
     "1-SOURCES/Translations/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-en.md",
-    "0-INBOX/temp/keyword-work/en-bo-term-list.md",
     "4-SYSTEM/Skills/english-keyword-extraction/scripts/output/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-en-tfidf.md",
     "4-SYSTEM/Skills/english-keyword-extraction/scripts/output/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-en-preview.md",
     "4-SYSTEM/Skills/english-keyword-extraction/scripts/output/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག-en-keywords.md",
