@@ -6,7 +6,7 @@ cutoff: top 60 terms by TF-IDF score, mirroring the final list size used in 21-t
 status: draft
 supersedes: 0-INBOX/temp/keyword-work/en-bo-term-list.md (manually curated 24-term list, rejected)
 ---
-
+ 
 # English-Tibetan term list — TF-IDF top 60
 
 This replaces the earlier manually-filtered 24-term list. Selection is now purely mechanical: rank 1-60 by TF-IDF score against the Reuters-21578 baseline (see `en-clean-scoped-tfidf.md`), computed on the placeholder-stripped, scope-only English text. No term was added or dropped by hand.
