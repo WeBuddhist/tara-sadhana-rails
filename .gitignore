@@ -13,3 +13,6 @@
 
 # Claude Code worktrees (local only)
 .claude/worktrees/
+
+# Large source PDFs (exceed GitHub 100MB limit) — keep local only
+0-INBOX/raw-data/*.pdf
