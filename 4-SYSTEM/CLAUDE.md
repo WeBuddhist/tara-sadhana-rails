@@ -360,3 +360,4 @@ Skills are reusable, step-by-step procedures stored in `4-SYSTEM/Skills/`. Each 
 | Ingest JSON (commentary) | `json-to-commentary` |
 | Create a new skill (with full registration) | `create-skill` |
 | Audit vault integrity (weekly maintenance) | `vault-audit` |
+| Plan, run, or resume the full rails pipeline for a text | `rails-pipeline` |

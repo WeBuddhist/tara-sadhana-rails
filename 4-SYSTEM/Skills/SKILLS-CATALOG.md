@@ -172,6 +172,12 @@ These skills operate on the vault's own structure — creating new skills, maint
 **Outputs:** `4-SYSTEM/Skills/<skill-name>/SKILL.md`, a new catalog entry, `.claude/commands/<skill-name>.md`, and optionally a new §12 table row in `4-SYSTEM/CLAUDE.md`.
 → [`create-skill/SKILL.md`](create-skill/SKILL.md)
 
+### `rails-pipeline` **[exists]**
+**Purpose:** Orchestrator for the whole rails chain — picks the pipeline for a goal (intake, structure, commentary rails, terminology, translation, Wikipedia articles, adaptations, maintenance), detects which steps a text already has, runs each skill in order with its own completion check, and stops at every human gate.
+**Inputs:** A goal, the text/file(s) and whether each is a root text or commentary, source/target languages, and scope.
+**Outputs:** No text output of its own; a resumable run log at `0-INBOX/temp/rails-run-<text-id>.md` plus whatever the skills it runs produce.
+→ [`rails-pipeline/SKILL.md`](rails-pipeline/SKILL.md)
+
 ---
 
 ## Maintenance skills
